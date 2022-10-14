@@ -1,5 +1,4 @@
-FROM node:18
-
+FROM bitnami/node:18-debian-11
 
 RUN apt-get update && apt-get upgrade -y \
     && apt-get clean
