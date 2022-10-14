@@ -44,3 +44,4 @@ pipeline {
         prismaCloudPublish resultsFilePattern: 'prisma-cloud-scan-results.json'
       }
   }
+}
