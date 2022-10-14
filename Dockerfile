@@ -1,4 +1,5 @@
-FROM node
+FROM node:lts-alpine3.16
+
 
 RUN apt-get update && apt-get upgrade -y \
     && apt-get clean
